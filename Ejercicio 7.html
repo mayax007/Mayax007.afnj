@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<title>Register</title>
+<font size="5" align="center" > Introduce tus datos personales para darte de alta </font>
+<form action="mailto:a25621@svalero.com" method="POST" enctype="Text/plain">
+
+    <label for="POST-name" > Nombre: </label>
+    <input type="text" name="Nombre" size="15" maxlength="12">
+    <br> </br>
+
+    <label for="POST-name" > Apellidos: </label>
+    <input type="text" name="Apellidos" size="30" maxlength="30">
+    <br> </br>
+
+    <label for="POST-name" > Password: </label>
+    <input type="password" name="Contraseña" size="15" maxlength="10">
+    <br> </br>
+
+    <label for="POST-name" > Repite Password: </label>
+    <input type="password" name="Contraseña 2" size="15" maxlength="10">
+    <br> </br>
+
+    <label for="POST-name" > Sexo: </label>
+    <input type="radio" name="Sexo" value="Hombre"> Hombre
+    <input type="radio" name="Sexo" value="Mujer"> Mujer
+    <input type="radio" name="Sexo" value="N/A" checked> N/A
+    <br> </br>
+
+    <label for="POST-name" > Edad: </label>
+    <input type="radio" name="Edad" value="0-15"> 0-15
+    <input type="radio" name="Edad" value="16-30"> 16-30
+    <input type="radio" name="Edad" value="31-50"> 31-50
+    <input type="radio" name="Edad" value="50-Mas"> 50-Mas
+    <br> </br>
+
+    <label for="POST-name" > Municipios: </label>
+    <select name="Municipios">
+        <option value="Zaragoza" selected> Zaragoza </option>
+        <option value="Utebo"> Utebo </option>
+        <option value="Borja"> Borja </option>
+        <option value="Cadrete"> Cadrete </option>
+        <option value="Tarazona"> Tarazona </option>
+        <option value="Calatayud"> Calatayud </option>
+        <option value="Layana"> Layana </option>
+        <option value="Maella"> Maella </option>
+        <option value="Bubierca"> Bubierca </option>
+        <option value="Pastriz"> Pastriz </option>
+        <option value="Mozota"> Mozota </option>
+    </select>
+    <br> </br>
+
+    <label for="POST-name" > Navegadores Utilizados: </label>
+    <input type="checkbox" name="Explorer" value="Yes"> Internet Explorer
+    <input type="checkbox" name="Google" value="Yes"> Google Chrome
+    <input type="checkbox" name="Firefox" value="Yes"> Mobzilla Firefox
+    <input type="checkbox" name="otros" value="Yes"> Otros
+    <br> </br>
+
+    <label for="POST-name" > Comentarios y Sugerencias: </label>
+    <textarea name="Comentarios" rows="8" cols="50"> </textarea>
+    <br> </br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>

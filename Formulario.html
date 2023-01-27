@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <!--
+        action="" Acción que realiza al completar el formulario
+        method="POST" Envia la información dentro de la petición http.
+        method="GET" La información se envia en la URL.
+
+        enctype="Text/plain"
+                Nombre=Montse
+                Apellido=Morales
+        enctype="multipart/form-data"
+                Content-Disposition:form-data; name="Nombre"
+                Montse
+                Content-Disposition:form-data; name="Apellido"
+                Morales
+        -->
+        <h2>Formulario</h2>
+        <form action="mailto:a25621@svalero.com" method="POST"
+        enctype="Text/plain">
+        <fieldset>
+            Nombre: <input type="text" name="Nombre" size="20" maxlength="14"> <br>
+            Apellido: <input type="text" name="Apellido" size="20" maxlength="14"> <br>
+            Usuario: <input type="text" name="Usuario" size="20" maxlength="14"> <br>
+            Contraseña: <input type="password" name="Contraseña" size="20" maxlength="10"> <br>
+            Genero:
+            <input type="radio" name="Genero" value="Hombre"> Hombre
+            <input type="radio" name="Genero" value="Mujer"> Mujer
+            <input type="radio" name="Genero" value="Tu" checked> Tu <br>
+            VIP: <input type="checkbox" name="VIP" value="Yes"> <br>
+            Provincia:
+            <select name="Provincia">
+                <option value="Madrid"> Madrid
+                <option value="Zaragoza" selected> Zaragoza
+                <option value="Teruel"> Teruel
+                <option value="Huesca"> Huesca
+                <option value="Sevilla"> Sevilla
+            </select> <br>
+            Descripción: <textarea name="Descripción" rows="3" cols="30"></textarea> <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+        </fieldset>
+        </form>
+    </body>
+</html>
