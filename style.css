@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  font-style: "Times New Roman.ttf";
+}
+html, footer {
+  background-color: aqua;
+  color: black;
+}
+html, nav {
+  background-color: black;
+  color: aliceblue;
+}
+html, h1 {
+  size="8px"
+}
+html, h2 {
+  size="12px"
+}
+html, h3 {
+  size="10px"
+}
+html, h4 {
+  size="6px"
+}
